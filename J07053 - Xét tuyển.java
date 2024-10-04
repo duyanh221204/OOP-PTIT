@@ -4,9 +4,9 @@ import java.time.*;
 import java.time.format.*;
 class DS
 {
-    String code, name, status;
-    int d;
-    LocalDate dob;
+    private String code, name, status;
+    private int d;
+    private LocalDate dob;
     String normalize_name(String s)
     {
         String[] k = s.trim().split("\\s+");
