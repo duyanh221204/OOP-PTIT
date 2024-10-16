@@ -21,6 +21,7 @@ class Student implements Comparable<Student>
         {
             if (!s1[i].equals(s2[i])) return s1[i].compareTo(s2[i]);
         }
+        if (s1.length != s2.length) return s1.length - s2.length;
         return this.code.compareTo(other.code);
     }
 
